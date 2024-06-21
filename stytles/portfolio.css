@@ -2,4 +2,75 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    color: white;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Images/a4b2a67a84819dcbc554c9782c74311f.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;  
+}
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.btn{
+    background-color: #f9004d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+} 
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.content-name{
+     margin: 20px 0 20px;
+     font-size: 55px;
+}
+.content-intro{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    font-size:20px;
+    color: #fcfc;
+    letter-spacing: 2px;
 }
