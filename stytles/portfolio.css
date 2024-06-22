@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
     color: white;
 }
 /*hero section start*/ 
@@ -160,7 +161,7 @@ h4{
    padding: 100px 0px;
 }
 .title{
-    font-size: 50px;
+    font-size: 45px;
     width:1130px;
     margin: 30px auto;
     text-align: center;
@@ -240,4 +241,53 @@ h4{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer; 
+}
+/*footer section start*/
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer > h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.5);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
 }
